@@ -68,7 +68,7 @@ Using this format:
 - Provides more flexibility for the types of data you can unit test
 - Allows you to unit test a model that depends on an ephemeral model
 
-However, when using `format: sql` you must supply mock data for _all rows_.
+However, when using `format: sql` you must supply mock data for _all columns_.
 
 When using the `sql` format, you can use either an inline SQL query for `rows`:
 
